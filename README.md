@@ -8,14 +8,32 @@ cuándo y cómo usar el skill.
 
 ## Estructura
 
+Los skills se organizan por **categoría**. Cada skill es una carpeta con su `SKILL.md`.
+
 ```
 claude-skills/
 ├── README.md
+├── docs/
+│   └── gestor-operaciones-multiagente.md   ← plan (idea) orquestador + Qwen/Hermes
 └── skills/
-    └── <nombre-del-skill>/
-        └── SKILL.md          ← instrucciones + frontmatter
-        └── (recursos opcionales)
+    ├── trading/          ← inversiones: screeners, TradingView (ver README)
+    │   └── claude-trading-skills/   (tradermonty, MIT — base para analisis-inversion)
+    ├── 3d-printing/      ← print-design (propia) + alternativas open-source
+    │   ├── print-design/
+    │   ├── cad-skill/
+    │   └── openscad-agent/
+    ├── media/
+    │   └── video-analyzer/
+    ├── study/
+    │   └── resumen-ramo/
+    └── meta/
+        └── skill-creator/   (anthropics — ayuda a crear/pulir skills)
 ```
+
+> **Nota de origen:** las skills bajo `trading/`, `3d-printing/cad-skill`, `openscad-agent` y
+> `meta/skill-creator` son open-source de terceros (licencias en cada carpeta). Antes de
+> incorporarlas se pasaron por revisión de seguridad (antivirus on-access + escaneo de patrones
+> peligrosos + verificación de dominios de red). Resultado: limpio.
 
 ## Formato de un SKILL.md
 
