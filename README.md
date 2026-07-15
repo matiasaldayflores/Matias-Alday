@@ -10,30 +10,32 @@ cuándo y cómo usar el skill.
 
 Los skills se organizan por **categoría**. Cada skill es una carpeta con su `SKILL.md`.
 
+Cada categoría tiene un `README.md` índice con la lista de sus skills y qué hace cada una.
+
 ```
 claude-skills/
 ├── README.md
 ├── docs/
-│   └── gestor-operaciones-multiagente.md   ← plan (idea) orquestador + Qwen/Hermes
+│   └── gestor-operaciones-multiagente.md   ← plan orquestador + Qwen/Hermes
 └── skills/
-    ├── trading/          ← inversiones: screeners, TradingView (ver README)
-    │   └── claude-trading-skills/   (tradermonty, MIT — base para analisis-inversion)
-    ├── 3d-printing/      ← print-design (propia) + alternativas open-source
-    │   ├── print-design/
-    │   ├── cad-skill/
-    │   └── openscad-agent/
-    ├── media/
-    │   └── video-analyzer/
-    ├── study/
-    │   └── resumen-ramo/
-    └── meta/
-        └── skill-creator/   (anthropics — ayuda a crear/pulir skills)
+    ├── trading/          inversiones: screeners, calendarios, análisis  (~86)
+    ├── business-career/  negocios, marketing, CV/carrera, decisiones     (64)
+    ├── web-design/       UI/UX, SEO, diseño en vivo                       (33)
+    ├── media/            video/contenido: análisis, edición, motion       (9)
+    ├── dev/              disciplina de desarrollo (TDD, diagnose, specs)   (8)
+    ├── 3d-printing/      print-design (propia) + alternativas             (5)
+    ├── meta/             crear/descubrir/mejorar skills                    (3)
+    ├── research/         investigación multi-fuente                        (2)
+    └── writing/          humanización de textos                           (1)
 ```
 
-> **Nota de origen:** las skills bajo `trading/`, `3d-printing/cad-skill`, `openscad-agent` y
-> `meta/skill-creator` son open-source de terceros (licencias en cada carpeta). Antes de
-> incorporarlas se pasaron por revisión de seguridad (antivirus on-access + escaneo de patrones
-> peligrosos + verificación de dominios de red). Resultado: limpio.
+_~211 skills en total. Los conteos van entre paréntesis; abre el README de cada categoría para el índice detallado._
+
+> **Nota de origen y seguridad:** casi todas las skills son open-source de terceros (licencias en
+> cada carpeta). Antes de incorporarlas se pasaron por revisión de seguridad: antivirus on-access
+> (McAfee) + escaneo de patrones peligrosos (base64→exec, curl|bash, exfiltración) + verificación de
+> dominios de red. Además **no se copiaron los scripts de instalación** (`install.sh`, etc.) de los
+> repos de origen — solo las carpetas `SKILL.md`. Resultado: limpio.
 
 ## Formato de un SKILL.md
 
