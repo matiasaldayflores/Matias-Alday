@@ -41,6 +41,18 @@ Instrucción del usuario
 4. **Seguridad/limites:** un agente que "invierte" o "gasta" necesita gates de confirmación humana.
    Nada de ejecución de órdenes reales sin aprobación explícita.
 
+## Agentes con rol dedicado (ideas de Matías)
+Además de workers efímeros, algunos agentes tienen un **rol fijo y recurrente**:
+- **Trading scout** — busca oportunidades y corre filtros (skills `trading/`).
+- **Ordenador académico** — organiza materiales de la U.
+- **Buscador de ideas de negocio** — usa `business-career/`.
+- **Optimizador de procesos/skills** — reparte roles, usa `meta/` (find-skills, task-observer).
+- **Admin del hub personal (Netlify + Supabase)** 🆕 — agente dedicado a administrar el servidor:
+  estado de deploys y logs en **Netlify**, y base de datos / auth / storage en **Supabase**.
+  Requiere: Netlify CLI o API (token) + Supabase CLI o MCP (token). Podría correr como cron
+  (chequeo periódico del hub) y avisar por Telegram si algo falla. Candidato a **skill propia**
+  (`devops/netlify-supabase-hub`) o a MCPs de Netlify/Supabase conectados a este agente.
+
 ## Primer hito sugerido (MVP acotado)
 "Analista de inversión multiagente": el orquestador toma un universo de tickers → dispara N workers
 Qwen que corren distintos screeners de `claude-trading-skills` en paralelo → sintetiza un reporte
