@@ -10,5 +10,5 @@ _9 skills. Índice auto-generado._
 - **playwright-mcp** — "Live browser interaction via Playwright MCP â€” navigate pages, click buttons, fill forms, take screenshots."
 - **remotion-best-practices** — Best practices for Remotion - Video creation in React
 - **remotion-render** — "Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spri...
-- **video-analyzer** — Watch and analyze videos from YouTube URLs or local/downloaded video files (mp4, mov, mkv, webm). Produces summaries, answers questions about content, and de...
+- **watch** — Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.
 
