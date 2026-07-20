@@ -1,38 +1,46 @@
-﻿# Diseño web y UI
+# Diseño web y UI
 
-_33 skills. Índice auto-generado._
+_46 skills. Índice agrupado por bundle._
 
-- **seo** — "Comprehensive SEO analysis for any website or business type. Full site audits, single-page analysis, technical SEO (crawlability, indexability, Core Web Vit...
-- **seo-audit** — "Full website SEO audit with parallel subagent delegation. Crawls up to 500 pages, detects business type, delegates to up to 15 specialists (8 always + 7 con...
-- **seo-backlinks** — "Backlink profile analysis: referring domains, anchor text distribution, toxic link detection, competitor gap analysis. Works with free APIs (Moz, Bing Webma...
-- **seo-cluster** — >
-- **seo-competitor-pages** — >
-- **seo-content** — >
-- **seo-content-brief** — >
-- **seo-dataforseo** — >
-- **seo-drift** — >
-- **seo-ecommerce** — >
-- **seo-flow** — >
-- **seo-geo** — >
-- **seo-google** — >
-- **seo-hreflang** — >
-- **seo-image-gen** — "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, infographics. Powered by Gemini via nano...
-- **seo-images** — >
-- **seo-local** — >
-- **seo-maps** — >
-- **seo-page** — >
-- **seo-plan** — >
-- **seo-programmatic** — >
-- **seo-schema** — >
-- **seo-sitemap** — >
-- **seo-sxo** — >
-- **seo-technical** — >
-- **impeccable** — Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherw...
-- **banner-design** — "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with AI-generated visuals. Actions: design,...
-- **brand** — Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand...
-- **design** — "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, ...
-- **design-system** — Token architecture, component specifications, and slide generation. Three-layer tokens (primitiveâ†’semanticâ†’component), CSS variables, spacing/typography ...
-- **slides** — Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.
-- **ui-styling** — Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based v...
-- **ui-ux-pro-max** — "UI/UX design intelligence for web and mobile. Searchable local database with 84 styles, 192 color palettes, 74 font pairings, 192 product types, 98 UX guide...
+## frontend-design (Anthropic, oficial)
+- **frontend-design** — Guía para diseño visual distintivo e intencional al construir UI nueva o rediseñar existente; evita el "AI slop" empujando decisiones estéticas deliberadas.
 
+## taste-skill (Leonxlnx, MIT)
+Suite anti-slop: taste de frontend + variantes de estilo + generación de imágenes.
+- **design-taste-frontend** (`taste-skill`) — Anti-slop para landing pages, portfolios y rediseños.
+- **design-taste-frontend-v1** (`taste-skill-v1`) — v1 original, preservada para proyectos que dependen de su comportamiento exacto.
+- **gpt-taste** — Elite UX/UI + motion GSAP con randomización real vía Python.
+- **high-end-visual-design** (`soft-skill`) — Diseñar como agencia high-end: fuentes, spacing, sombras exactas.
+- **minimalist-ui** — Interfaces editoriales limpias, monocromo cálido, contraste tipográfico.
+- **industrial-brutalist-ui** (`brutalist-skill`) — Interfaces mecánicas crudas, tipografía suiza + estética terminal.
+- **redesign-existing-projects** — Auditar y subir a calidad premium sitios/apps existentes.
+- **stitch-design-taste** — Design system semántico para Google Stitch (genera `DESIGN.md`).
+- **image-to-code** — Image-to-code para tareas web visualmente importantes.
+- **imagegen-frontend-web** — Dirección de imagen para diseños web premium conversion-aware.
+- **imagegen-frontend-mobile** — Conceptos de pantalla app-native para móvil.
+- **brandkit** — Generación de boards de brand-guidelines high-end.
+- **full-output-enforcement** (`output-skill`) — Anula truncamiento del LLM; prohíbe placeholders, fuerza código completo.
+
+## emilkowalski-motion (Emil Kowalski, MIT)
+Craft de animación y motion para web.
+- **emil-design-eng** — Filosofía de Emil Kowalski sobre pulido de UI, diseño de componentes y animación.
+- **apple-design** — Enfoque Apple de diseño de interfaz y motion físico fluido, traducido a web.
+- **animation-vocabulary** — Glosario de reverse-lookup: de una descripción vaga a la técnica de animación.
+- **find-animation-opportunities** — Encuentra dónde una UI debería animar y no lo hace.
+- **improve-animations** — Auditoría de motion como advisor senior + plan de mejora.
+- **review-animations** — Revisa código de animación contra un bar de craft alto.
+
+## impeccable
+- **impeccable** — Diseñar, rediseñar, criticar, auditar, pulir, distilar y endurecer UI (modos brand/product, 23 comandos).
+
+## ui-ux-pro-max
+- **ui-ux-pro-max** — Inteligencia de diseño UI/UX con DB local (84 estilos, 192 paletas, 74 pares de fuentes...).
+- **design** — Skill de diseño integral: identidad de marca, tokens, UI styling, generación de logos.
+- **design-system** — Arquitectura de tokens de 3 capas, specs de componentes, slides.
+- **ui-styling** — UI accesibles con shadcn/ui (Radix + Tailwind) y verificación por canvas.
+- **brand** — Voz de marca, identidad visual, frameworks de mensajería, consistencia.
+- **banner-design** — Banners para social, ads, heroes de web, assets creativos e impresión.
+- **slides** — Presentaciones HTML estratégicas con Chart.js y design tokens.
+
+## claude-seo
+SEO integral (25 skills): auditorías, análisis de página, técnico, contenido, schema, local, backlinks, e-commerce, GEO, hreflang, sitemaps, programático y más. Ver carpeta `claude-seo/`.
